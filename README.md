@@ -14,8 +14,7 @@ Este repositório contém o código-fonte do meu <strong>site portfólio pessoal
 </p>
 
 <p>
-O site tem como objetivo apresentar minhas informações profissionais, projetos desenvolvidos,
-habilidades técnicas e formas de contato, com foco em uma navegação simples, intuitiva e responsiva.
+O site tem como objetivo apresentar minhas informações profissionais, projetos desenvolvidos, e formas de contato, com foco em uma navegação simples, intuitiva e responsiva.
 </p>
 
 <br>
@@ -25,7 +24,6 @@ habilidades técnicas e formas de contato, com foco em uma navegação simples, 
 <ul>
   <li>Página <strong>Sobre mim</strong></li>
   <li>Seção de <strong>Projetos</strong></li>
-  <li>Apresentação de <strong>Habilidades</strong></li>
   <li>Formulário de contato com <strong>validação em JavaScript</strong></li>
   <li>Layout responsivo para diferentes dispositivos</li>
 </ul>
@@ -37,7 +35,7 @@ habilidades técnicas e formas de contato, com foco em uma navegação simples, 
 <ul>
   <li><strong>HTML5</strong> — Estrutura e semântica do site</li>
   <li><strong>CSS3</strong> — Estilização, layout e responsividade</li>
-  <li><strong>JavaScript (ES6+)</strong> — Interatividade e validações</li>
+  <li><strong>JavaScript</strong> — Interatividade e validações</li>
 </ul>
 
 <br>
