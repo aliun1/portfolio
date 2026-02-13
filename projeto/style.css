@@ -1,0 +1,174 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+:root {
+  --black: #111111;
+  --gray: #555555;
+  --line: #dddddd;
+  --bg: #ffffff;
+}
+
+
+body {
+  background: var(--bg);
+  color: var(--black);
+  font-family: 'Inter', sans-serif;
+}
+
+/* header */
+
+header {
+  border-bottom: 1px solid var(--line);
+}
+
+/* Linha de cima */
+.top-bar {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  height: 70px;
+}
+
+.top-bar div {
+  display: flex;
+  align-items: center;
+  padding: 0 24px;
+  border-right: 1px solid var(--line);
+}
+
+.top-bar div:last-child {
+  border-right: none;
+}
+
+.logo {
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.menu {
+  justify-content: center;
+  gap: 40px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: var(--black);
+  font-size: 15px;
+}
+
+.tagline {
+  justify-content: flex-end;
+  font-size: 14px;
+  color: var(--gray);
+}
+
+/* Linha de baixo */
+.bottom-bar {
+  position: relative;
+  height: 90px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  border-top: 1px solid var(--line);
+}
+
+
+/* imagem estrela */ 
+.star {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.star img {
+  width: 80px;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-height: calc(100vh - 160px);
+}
+
+/* coluna esquerda */
+.left {
+  padding: 80px;
+  border-right: 1px solid var(--line);
+}
+
+.left h1 {
+  font-size: 70px;
+  line-height: 1;
+  font-weight: 700;
+}
+
+.left p {
+  margin-top: 30px;
+  max-width: 420px;
+  font-size: 16px;
+  color: var(--gray);
+}
+
+/* coluna direita */
+.right {
+  padding: 80px;
+}
+
+.card {
+  border-bottom: 1px solid var(--line);
+  padding: 40px 0;
+}
+
+.card h2 {
+  font-size: 24px;
+}
+
+.card span {
+  color: var(--gray);
+  font-size: 14px;
+}
+
+
+footer {
+  border-top: 1px solid var(--line);
+  padding: 30px;
+  text-align: center;
+  font-size: 14px;
+  color: var(--gray);
+}
+
+/* responsividade */
+
+@media (max-width: 900px) {
+
+  .top-bar {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .tagline {
+    display: none;
+  }
+
+  main {
+    grid-template-columns: 1fr;
+  }
+
+  .left {
+    border-right: none;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .left h1 {
+    font-size: 48px;
+  }
+
+  .star img {
+    width: 60px;
+  }
+
+}
