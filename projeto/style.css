@@ -172,3 +172,15 @@ footer {
   }
 
 }
+
+.card a {
+  text-decoration: none; /* remove o sublinhado */
+  color: var(--black);
+  font-weight: 500;
+  transition: 0.2s;
+}
+
+.card a:hover {
+  opacity: 0.6;
+}
+
