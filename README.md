@@ -24,7 +24,7 @@ O site tem como objetivo apresentar minhas informações profissionais, projetos
 <ul>
   <li>Página <strong>Sobre mim</strong></li>
   <li>Seção de <strong>Projetos</strong></li>
-  <li>Formulário de contato com <strong>validação em JavaScript</strong></li>
+  <li>Formulário de contato </li>
   <li>Layout responsivo para diferentes dispositivos</li>
 </ul>
 
